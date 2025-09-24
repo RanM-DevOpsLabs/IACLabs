@@ -1,3 +1,2 @@
-**/*providers.tf
 **/*/.terraform/*
-
+**/*terraform.tfstate.backup
