@@ -1,4 +1,4 @@
-variable "state_file_path" {
+variable "buckets_names" {
   description = "The path to the state file"
   type = map(string)
 }

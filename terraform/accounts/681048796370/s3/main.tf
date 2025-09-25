@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "this" {
-  for_each = var.state_file_path
+  for_each = var.buckets_names
   bucket   = each.value
   force_destroy = true
 
