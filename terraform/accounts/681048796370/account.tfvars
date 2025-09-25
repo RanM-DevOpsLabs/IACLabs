@@ -1,3 +1,6 @@
+# ignore future modifications - in local repo: git update-index --assume-unchanged path/to/file
+# to start tracking again: git update-index --no-assume-unchanged path/to/file
+
 account_id = "account_id"
 region = "region"
 access_key = "access_key"
