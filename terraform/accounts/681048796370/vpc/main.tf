@@ -1,3 +1,5 @@
+# AWS Documentation: https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Introduction.html
+
 resource "aws_vpc" "main" {
   cidr_block       = var.vpc_cidr_block
   instance_tenancy = "default"

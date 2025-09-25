@@ -1,3 +1,5 @@
+# AWS Documentation: https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
+
 # Create two public subnets (one per AZ)
 resource "aws_subnet" "public_subnet" {
   for_each                = { for idx, cidr in var.public_subnet_cidr_blocks : idx => { cidr = cidr, az = var.availability_zones[idx] } }
